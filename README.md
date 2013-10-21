@@ -1,4 +1,4 @@
 Techpaper
 =========
 
-Collaborative space for Konrad, Reiko, Catherine and others to write the Technical paper 
+Collaborative space for Konrad, Jelte, Reiko, Catherine and others to write the Technical paper 
