@@ -2,7 +2,7 @@
 \usepackage{epsfig,times,amssymb,amsmath,color,verbatim}
 
 \title[KiDS]{Technical Paper}
-\author[K. Kuijken et al.]{Koen Kuijken$^{1}$\thanks{kuijken@strw.leidenuniv.nl}, + KiDS Collaboration\\
+\author[K. Kuijken et al.]{Konrad Kuijken$^{1}$\thanks{kuijken@strw.leidenuniv.nl}, + KiDS Collaboration\\
 %CFHTLenS Collaboration
 \\
 $^{1}$Leiden Observatory, Leiden University, Niels Bohrweg 2, 2333 CA Leiden, The Netherlands.\\
@@ -31,13 +31,15 @@ $^{20}$Department of Physics and Astronomy, University College London, Gower Str
 
 \newcommand{\red}[1]{{\color{red}{#1}}}
 
+\newcommand{\kk}[1]{{\bf KK:}{\tt #1}}
 
 \def\gs{\mathrel{\raise1.16pt\hbox{$>$}\kern-7.0pt %
 \lower3.06pt\hbox{{$\scriptstyle \sim$}}}}         %
 \def\ls{\mathrel{\raise1.16pt\hbox{$<$}\kern-7.0pt %
 \lower3.06pt\hbox{{$\scriptstyle \sim$}}}}         %
 
-\voffset=-0.6in
+%this offset does not work for me... KK
+%\voffset=-0.6in
 
 
 \begin{document}
@@ -67,7 +69,10 @@ Seeing distribution, optics etc, THELI reduction, masking, PSF patterns
 \subsection{KiDS Photometry for Redshifts}
 \red{KK,HH/AC}\\
 
-Gaap/gaussianisation, photozs
+%Gaap/gaussianisation, photozs
+\include{gaap}
+
+\red{Hendrik: photz's}
 
 \subsection{KiDS Shapes for Lensing}
 \red{CH/LM/RN}\\
@@ -85,7 +90,24 @@ Systematics tests: star-gal and g-g lensing (zl,zs), photo-z angular correlatio 
 Some theory\\
 Cosmic shear in pass/fail fields/ regions of high/low psfs\\
 Comparison to CFHTLenS\\
-KK idea
+KK idea:
+\begin{verbatim}
+
+And had another idea for something to put in the technical paper, see what you think:
+
+ even if we cannot have cosmic shear analyses for early science, we can I think present some correlation functions and compare them to cfhtlens. I think this would be interesting from a technical point of view, as follows:
+- cfhtlens is very interesting, but there are question marks about the calibration
+- kids covers a similar area, but to less sensitivity
+- lensfit needs s/n dependent calibration.
+As a test of our s/n-dependent calibration we can make corr.fns (maybe even just xi+) of galaxies in r-band magnitude bins, for KiDS and CFHTLens (and RCS2?). If the calibrations are OK these should agree up to the errors. This is a meaningful test because the same magnitude bin is observed with different S/N in the different surveys. Agreement validates (even if it does not prove) the S/N correction. Disagreement should be a red flag, or at least a warning.
+I like this test because 
+- if it works it shows the S/N calibration is consistent across surveys
+- it is cosmology independent 
+- it does not require photo-z
+- the measurements should be relatively straightforward.
+Of course the actual comparison can only be made once we unblind.
+\end{verbatim}
+
 
 \section{Conclusions}
 \red{KK}\\

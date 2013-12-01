@@ -1,0 +1,81 @@
+\subsubsection{Gaussian Aperture and PSF Photometry (GAAP)}
+
+Photometric redshifts of galaxies require accurate colour measurements. These colours do not need to describe the total light from the galaxy: but they should represent the ratio of the flux from the same part of the galaxy in different filter bands. This means that, in order to optimize S/N, photometric redshifts can be based on the brighter, central regions of galaxies without the need to include the low surface brightness outskirts.
+For small galaxies this requires correcting for the blurring effects of the point spread function.
+
+One technical challenge is the fact that the point spread function is not constant: it varies from image to image, with position in each image, from sub-exposure to sub-exposure, and with wavelength. 
+This variable PSF makes it difficult to measure useful aperture fluxes of galaxies: depending on the PSF, the flux measured inside a given aperture on the observed image will correspond to a different part of the galaxy itself.
+
+We correct for the PSF variations in two steps: first by homogenizing the PSF within each coadded stacked image to a Gaussian shape without significantly degrading the seeing, and second by analytically correcting the aperture photometry of each galaxy for the seeing differences that remain. This approach has the advantage that the convolution to a homogenized PSF, which is the computationally more expensive step, only needs to be done once for each observation.
+
+\subsubsection{PSF Gaussianization}
+
+To homogenize the PSF we model the stars with shapelet expansions (\cite{Refregier2001}), and use these to construct and apply a suitable spatially varying convolution kernel. Shapelets are elementary, compact, orthonormal 2D functions which can be used to expand an image to arbitrary precision. They are characterized by a Gaussian scale radius $\beta$, multiplied by polynomial terms: the shapelet with Cartesian orders $(a,b)$ is (for $a,b=0,1,2,\ldots$)
+\[
+S_{ab}(x,y;\beta)={H_a(x/\beta)H_b(y/\beta) \over \beta\sqrt{2^{a+b}\sqrt\pi a! b!}}  e^{-(x^2+y^2)/2\beta^2} 
+\]
+where $H_a(x)$ is a Hermite polynomial, familiar from the eigenstates of the quantum harmonic oscillator, from which many of the useful properties of shapelets, such as their behaviour under infinitesimal translation, rotation, magnification, shear, and convolution may be derived (see \cite{Refregier2001} for details).  
+
+Shapelets have been used to characterize the galaxy populations {\cite()}, to measure weak lensing shear {\cite()} and flexion {\cite()}, and ... {\cite()}.  
+Even though the shapelets are formulated in cartesian coordinates, truncating the expansion at maximum combined order $N=a+b$ results in an orientation-invariant subspace of possible shapes that can be described. Shapelets are most sensitive to modelling structure at radii between $\beta/\sqrt{N+1}$ and $\beta\times\sqrt{N+1}$. At large radii they asymptotically approach a Gaussian.
+
+Because of the orthonormality of the elementary shapelets, any source's image $I(x,y)$ can be described as a sum $\sum_{ab} s_{ab} S_{ab}(x,y;\beta)$ with coefficients
+\[ 
+s_{ab}=\int\,dx\,dy\, I(x,y) S_{ab}(x,y;\beta).
+\] 
+Since our data are pixellated we do not use this integral relation, but rather make a least-squares fit of a truncated shapelet model to the image of our source. We fit all pixels within a radius $(4+\sqrt{N})\beta$ of the center of the source.
+ 
+Using this formalism, our image ``PSF gaussianization'' procedure is as follows:
+\begin{enumerate}
+\item
+First we identify high-S/N unsaturated stars in the image, using the traditional flux vs. radius plot (\cite{KSB}). Typically several thousand such stars can be found per tile. Each star is then first fit with a simple Gaussian, and the median Gaussian radius $\sigma_{\rm psf}$ determined.  
+Then all stars are modelled with a flux-normalized shapelet expansion to cartesian order 10, using a scale radius $\beta_{\rm psf}=1.3 \sigma_{\rm psf}$ chosen to prevent overfitting the cores of the stars while also reaching out into the wings of the PSF. All shapelet models use cartesian pixel coordinates $x,y$ with respect to a center position $(\xi,\eta)$ of the star: we define this center as the position for which $s_{10}=s_{01}=0$ and determine it iteratively.
+\item
+The PSF models are then interpolated across the image by means of (4th-order) polynomial fits of each shapelet coefficient versus $\xi$ and $\eta$ position (15 spatial variation coefficients per shapelet term). In this step outliers are rejected iteratively, resulting in a smooth model of the PSF variation across the image. The PSF model is thus described as a linear combination of $15\times66=990$ terms:
+\[
+P(x,y,\xi,\eta)=\sum_{a=0;b=0}^{a+b\le10} s_{ab} (\xi,\eta) S_{ab}(x,y;\beta_{\rm psf})
+\]
+where
+\[
+s_{ab}(\xi,\eta)=\sum_{k=0;l=0}^{k+l\le4} s_{ab;kl} (\xi-\xi_0)^k (\eta-\eta_0)^l 
+\]
+and $(\xi_0,\eta_0)$ is the center of the image.
+\kk{Show some illustrative models. Discuss lack of PSF jumps?}
+\item
+Having constructed a map of the PSF, the next step is to construct a convolution kernel that renders the PSF Gaussian. Also here the shapelet formalism is very convenient, since shapelets behave nicely under convolution (\cite{Regfregier2011}). 
+
+construct kernel
+\item 
+noise correlation function
+\item
+convolution
+\item
+show resulting PSFs
+\end{enumerate}
+
+Note that even though, for practical reasons, we carry out the photometry as a two-step process (first manipulating the pixels in the image and then photometering the result) it can also be written as a single photometry step on the original variable-PSF stack (albeit with a complicated aperture function). Effectively, therefore, our photometry is still a linear combination of calibrated pixel fluxes, with a tractable error analysis. 
+
+
+
+\subsubsection{Gaap photometry}
+
+\kk{TBW}
+
+formalism
+
+choice of aperture size and orientation
+
+examples of S/N optimization in practice
+
+
+
+mention stack-before-gauss vs gauss-b4-stack -- for now do the former (cheaper). Can we show some comparisons?
+
+
+other uses of gaussianized images:
+
+cleaner star/gal separation (refer to Pila et al)
+
+shear measurements?
+
+galaxy morphology? colour gradients? 
