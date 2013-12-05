@@ -1,0 +1,411 @@
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=latex 2007.10.10)  2 DEC 2013 14:58
+entering extended mode
+**KiDS_technical
+(./KiDS_technical.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
+ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
+stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
+h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
+kish, ukrainian, nohyphenation, loaded.
+(./mn2e.cls
+Document Class: mn2e 2001/02/06 v2.2 LaTeX2e MN document class
+Document Style `MN' v2.2, released 2001 February 20
+\math@groups=\toks14
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/cmsy/b/n on input line 223.
+\symbmisymbols=\mathgroup4
+\symUPM=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `UPM' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 260.
+\symAMSa=\mathgroup6
+\SFB@measure=\dimen102
+\realparindent=\skip41
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\@indentskip=\skip42
+\smallindent=\skip43
+\@footindent=\skip44
+\@leftskip=\skip45
+\c@dummy=\count85
+(/sw/share/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2003/06/06 7.1 (PWD)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 518.
+\c@NAT@ctr=\count86
+)
+\c@table=\count87
+\c@figure=\count88
+\mathindent=\dimen103
+)
+(/sw/share/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/sw/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/sw/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/sw/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/sw/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/sw/share/texmf-dist/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(/sw/share/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+\epsfxsize=\dimen106
+\epsfysize=\dimen107
+)
+(/sw/share/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2004/09/15 PSNFSS-v9.2 (SPQR) 
+)
+(/sw/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/sw/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks16
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 85.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 85.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/msa/m/n on input line 85.
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+)
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 124.
+)
+(/sw/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(/sw/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/sw/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen108
+))
+(/sw/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen109
+)
+(/sw/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen110
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks18
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks19
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks20
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/sw/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(/sw/share/texmf-dist/tex/latex/graphics/color.cfg
+File: color.cfg 2005/02/03 v1.3 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 125.
+
+(/sw/share/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(/sw/share/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks22
+\verbatim@line=\toks23
+\verbatim@in@stream=\read1
+)
+
+LaTeX Warning: Unused global option(s):
+    [times,letter,amssymb].
+
+(./KiDS_technical.aux (./gaap.aux))
+\openout1 = `KiDS_technical.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 45.
+
+(/sw/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+LaTeX Font Info:    Try loading font information for U+eur on input line 47.
+
+(/sw/share/texmf-dist/tex/latex/amsfonts/ueur.fd
+File: ueur.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 47.
+
+(/sw/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 47.
+
+(/sw/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 73.
+(/sw/share/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
+ [1
+
+
+
+]
+\openout2 = `gaap.aux'.
+
+ (./gaap.tex
+
+Package natbib Warning: Citation `Refregier2001' on page 2 undefined on input l
+ine 13.
+
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 15.
+
+
+Package natbib Warning: Citation `Refregier2001' on page 2 undefined on input l
+ine 17.
+
+
+Package natbib Warning: Citation `(' on page 2 undefined on input line 19.
+
+
+Package natbib Warning: Citation `(' on page 2 undefined on input line 19.
+
+
+Package natbib Warning: Citation `(' on page 2 undefined on input line 19.
+
+
+Package natbib Warning: Citation `(' on page 2 undefined on input line 19.
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 22--23
+\OT1/ptm/m/n/9 any source's im-age $\OML/cmm/m/it/9 I\OT1/cmr/m/n/9 (\OML/cmm/m
+/it/9 x; y\OT1/cmr/m/n/9 )$ \OT1/ptm/m/n/9 can be de-scribed as a sum
+ []
+
+
+Package natbib Warning: Citation `KSB' on page 2 undefined on input line 31.
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 43.
+(/sw/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 2941) in paragraph at lines 41--45
+\OT1/ptm/m/n/9 and $\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 ^^X[]; ^^Q[]\OT1/cmr/m/n/9 
+)$ \OT1/ptm/m/n/9 is the cen-ter of the im-age. \OT1/ptm/b/n/9 KK:\OT1/pcr/m/n/
+9 Show some
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--45
+\OT1/pcr/m/n/9 illustrative models. Discuss lack of PSF
+ []
+
+
+Package natbib Warning: Citation `Regfregier2011' on page 2 undefined on input 
+line 45.
+
+) [2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
+Overfull \hbox (218.99948pt too wide) in paragraph at lines 100--100
+[]\OT1/pcr/m/n/9 And had another idea for something to put in the technical pap
+er, see what you think:[] 
+ []
+
+
+Overfull \hbox (229.79947pt too wide) in paragraph at lines 102--102
+[] \OT1/pcr/m/n/9 even if we cannot have cosmic shear analyses for early scienc
+e, we can I think present[] 
+ []
+
+
+Overfull \hbox (251.39944pt too wide) in paragraph at lines 103--103
+[] \OT1/pcr/m/n/9 some correlation functions and compare them to cfhtlens. I th
+ink this would be interesting[] 
+ []
+
+
+Overfull \hbox (202.7995pt too wide) in paragraph at lines 105--105
+[]\OT1/pcr/m/n/9 - cfhtlens is very interesting, but there are question marks a
+bout the calibration[] 
+ []
+
+
+Overfull \hbox (46.19968pt too wide) in paragraph at lines 106--106
+[]\OT1/pcr/m/n/9 - kids covers a similar area, but to less sensitivity[] 
+ []
+
+
+Overfull \hbox (235.19946pt too wide) in paragraph at lines 108--108
+[]\OT1/pcr/m/n/9 As a test of our s/n-dependent calibration we can make corr.fn
+s (maybe even just xi+) of[] 
+ []
+
+
+Overfull \hbox (240.59946pt too wide) in paragraph at lines 109--109
+[]\OT1/pcr/m/n/9 galaxies in r-band magnitude bins, for KiDS and CFHTLens (and 
+RCS2?). If the calibrations[] 
+ []
+
+
+Overfull \hbox (224.39948pt too wide) in paragraph at lines 110--110
+[]\OT1/pcr/m/n/9 are OK these should agree up to the errors. This is a meaningf
+ul test because the same[] 
+ []
+
+
+Overfull \hbox (245.99945pt too wide) in paragraph at lines 111--111
+[]\OT1/pcr/m/n/9 magnitude bin is observed with different S/N in the different 
+surveys. Agreement validates[] 
+ []
+
+
+Overfull \hbox (235.19946pt too wide) in paragraph at lines 112--112
+[]\OT1/pcr/m/n/9 (even if it does not prove) the S/N correction. Disagreement s
+hould be a red flag, or at[] 
+ []
+
+
+Overfull \hbox (143.39957pt too wide) in paragraph at lines 115--115
+[]\OT1/pcr/m/n/9 - if it works it shows the S/N calibration is consistent acros
+s surveys[] 
+ []
+
+
+Overfull \hbox (62.39966pt too wide) in paragraph at lines 118--118
+[]\OT1/pcr/m/n/9 - the measurements should be relatively straightforward.[] 
+ []
+
+
+Overfull \hbox (110.9996pt too wide) in paragraph at lines 119--119
+[]\OT1/pcr/m/n/9 Of course the actual comparison can only be made once we unbli
+nd.[] 
+ []
+
+No file KiDS_technical.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[3
+
+
+] (./KiDS_technical.aux (./gaap.aux)) ) 
+Here is how much of TeX's memory you used:
+ 2301 strings out of 94501
+ 26830 string characters out of 1176136
+ 81663 words of memory out of 1000000
+ 5427 multiletter control sequences out of 10000+50000
+ 24172 words of font info for 77 fonts, out of 500000 for 2000
+ 580 hyphenation exceptions out of 1000
+ 32i,15n,34p,508b,304s stack positions out of 1500i,500n,5000p,200000b,5000s
+
+Output written on KiDS_technical.dvi (3 pages, 15836 bytes).

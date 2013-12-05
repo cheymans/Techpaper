@@ -83,6 +83,8 @@ PSF modelling, noise biases, Lensfit updates '\\
 \subsection{KiDS tests for systematic errors}
 \red{CH/CB/KK/AC}
 
+PSF small-scale structure? (MV). Look at denser KiDS fields and compare subsampled PSF maps to see whether sparser fields have sufficient information to model PSF. Also can look at small-scale correlation of PSF ellipticities. Or 47Tuc data.
+
 Systematics tests: star-gal and g-g lensing (zl,zs), photo-z angular correlatio between z-bins
 
 \section{Weak Lensing by large-scale structure}
@@ -93,13 +95,22 @@ Comparison to CFHTLenS\\
 KK idea:
 \begin{verbatim}
 
+DO THIS WITH GG LENSING FIRST?
+
 And had another idea for something to put in the technical paper, see what you think:
 
- even if we cannot have cosmic shear analyses for early science, we can I think present some correlation functions and compare them to cfhtlens. I think this would be interesting from a technical point of view, as follows:
+ even if we cannot have cosmic shear analyses for early science, we can I think present
+ some correlation functions and compare them to cfhtlens. I think this would be interesting
+ from a technical point of view, as follows:
 - cfhtlens is very interesting, but there are question marks about the calibration
 - kids covers a similar area, but to less sensitivity
 - lensfit needs s/n dependent calibration.
-As a test of our s/n-dependent calibration we can make corr.fns (maybe even just xi+) of galaxies in r-band magnitude bins, for KiDS and CFHTLens (and RCS2?). If the calibrations are OK these should agree up to the errors. This is a meaningful test because the same magnitude bin is observed with different S/N in the different surveys. Agreement validates (even if it does not prove) the S/N correction. Disagreement should be a red flag, or at least a warning.
+As a test of our s/n-dependent calibration we can make corr.fns (maybe even just xi+) of 
+galaxies in r-band magnitude bins, for KiDS and CFHTLens (and RCS2?). If the calibrations 
+are OK these should agree up to the errors. This is a meaningful test because the same 
+magnitude bin is observed with different S/N in the different surveys. Agreement validates 
+(even if it does not prove) the S/N correction. Disagreement should be a red flag, or at 
+least a warning.
 I like this test because 
 - if it works it shows the S/N calibration is consistent across surveys
 - it is cosmology independent 
